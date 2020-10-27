@@ -15,6 +15,10 @@
         {
             "name": "Jakub Kosiński",
             "email": "j.kosinski@zdrojowainvest.pl"
+        },
+        {
+            "name": "Alina Dawydowa",
+            "email": "a.dawydowa@zdrojowainvest.pl"
         }
     ],
     "autoload": {
