@@ -1,0 +1,32 @@
+{
+    "name": "zdrojowa/amqp",
+    "type": "library",
+    "minimum-stability": "dev",
+    "description": "",
+    "require": {
+        "php": "^7.4",
+        "myclabs/php-enum": "^1.7",
+        "php-amqplib/php-amqplib": "^2.11",
+        "doctrine/annotations": "^1.8",
+        "illuminate/support": "^6.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jakub Kosiński",
+            "email": "j.kosinski@zdrojowainvest.pl"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Zdrojowa\\Amqp\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Zdrojowa\\Amqp\\Providers\\AmqpServiceProvider"
+            ]
+        }
+    }
+}
